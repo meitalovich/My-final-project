@@ -1,0 +1,62 @@
+/* עיצוב לדפים צור קשר ומכירת ספרים */
+
+body{
+  background-image:  url('book.jpg');
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+/* הפס התחתון */
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color:  #585858 ;
+  color: white;
+ margin-top: 100px; 
+}
+
+
+form { 
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background:transparent;
+	border-radius: 15px;  
+}
+
+input {
+	display: block;
+	border: 2px solid transparent;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+
+button {
+	float: center;
+	background: rgb(73, 64, 145);
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 1px;
+	border: none;
+  width: 65%; 
+}
+
+button:hover{
+	opacity: .7;
+}
+
+
+.login_button{
+	float: right;
+	background: rgb(10, 0, 100);
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 12px;
+	border: none;
+  width: 95%;
+}
